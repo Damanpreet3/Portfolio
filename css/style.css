@@ -1,0 +1,92 @@
+/*----GLOBAL STYLES-----*/
+html{
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+body{ 
+	/*Makes the background color expand to 100 width*/
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+img{
+	width: 300px;
+}
+a{
+	color: yellow;
+}
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+.wrap{
+	width: 800px;
+	margin: 0 auto; /*Makes the content move automatically to the Center*/
+	padding: 60px 0;
+}
+h1{
+	font-size: 60px;
+}
+h2{
+	font-size: 35px;
+}
+h1, h2{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	margin: 2px;
+}
+
+/*-----ABOUT / PROFILE-------*/
+header{
+	background-color: #13568B;
+	color: white;
+}
+
+/********  PROJECTS / PORTFOLIO  *********/
+
+.projects{
+	background-color: #DADFE4;
+}
+.projects a{
+	color: #13568B; 
+}
+.projects .btn{
+	color: white;
+	background-color: #13568B;
+	padding: 6px;
+	border-radius: 3px;
+	display: inline-block;
+}
+.projects .btn:hover{
+	background: rgba(19,86,139,80%)
+}
+/*******  WORK EXPERIENCE  *******/
+.experience{
+	background-color: #AEECF8;
+}
+.project-item {
+	overflow: hidden;
+	border-bottom: 1px solid black; 
+	padding: 20px 0;
+}
+.project-item img{
+	float: left;
+	margin: 20px;
+}
+.project-item h3{
+	margin-top: 0;
+}
+
+
+/*******  EDUCATION & CERTIFICATIONS ******/
+
+
+/******  CONTACT INFO / SOCIAL MEDIA  ******/
+footer{
+	background-color: #13568B;
+	color: white;
+}
