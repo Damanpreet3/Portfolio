@@ -44,6 +44,7 @@ h1, h2{
 header{
 	background-color: #13568B;
 	color: white;
+	text-align: center;
 }
 
 /********  PROJECTS / PORTFOLIO  *********/
@@ -64,10 +65,6 @@ header{
 .projects .btn:hover{
 	background: rgba(19,86,139,80%)
 }
-/*******  WORK EXPERIENCE  *******/
-.experience{
-	background-color: #AEECF8;
-}
 .project-item {
 	overflow: hidden;
 	border-bottom: 1px solid black; 
@@ -81,12 +78,34 @@ header{
 	margin-top: 0;
 }
 
+/*******  WORK EXPERIENCE  *******/
+.experience{
+	background-color: #AEECF8;
+}
+.work-item{
+	column-gap: 20px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
 
 /*******  EDUCATION & CERTIFICATIONS ******/
 
 
 /******  CONTACT INFO / SOCIAL MEDIA  ******/
 footer{
+	text-align: center;
 	background-color: #13568B;
 	color: white;
 }
+.content-list{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.content-list a{
+	padding: 15px;
+	display: inline-block;
+}
+
+
